@@ -14,7 +14,6 @@ const AboutUs = props => {
             console.log(response)
             setParagraph(response.data.paragraph)
             setPhoto(response.data.photo)
-            console.log(photo)
         })
         .catch(err => {
             const errMsg = JSON.stringify(err, null, 2) 

@@ -24,7 +24,6 @@ const { User } = require('./models/User')
 
 app.get('/aboutus', async (req, res) => {
   try {
-    console.log("try")
     res.json({
       paragraph: "Hi there! This is Allison Ji. I am currently a senior student studying at New York University and majoring in Computer and Data Science. My interests include photography, travel, piano, cooking, and video game. I am from China and came to New York two years ago. My hometown is Xiamen, a very beautiful small city near the sea. Nevertheless, I actually spent most of my childhood in Shenzhen, a big international city in which people live a hectic pace of life.",
       photo: "https://drive.google.com/uc?id=1sylx4MFsHiFqvxrCPUcgVl5mUWZKEXyc",
